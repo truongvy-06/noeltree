@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'mountains_of_christmasregular';
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/35984/mountainsofchristmas-webfont.woff2') format('woff2'),
+         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/35984/mountainsofchristmas-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+  background-color:#151522;
+  overflow: hidden;
+  text-align:center;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+svg{
+  width:100%;
+  height:100%;
+  visibility:hidden;
+ 
+}
+
+.sparkle{
+  /* mix-blend-mode:luminosity */
+}
+
+.merryText, .merryTextBg, .fromChrisText{
+ font-family:'mountains_of_christmasregular' ;
+  fill:#fffcf9;
+  text-anchor:middle;
+  font-size:3.64em;
+}
+.merryTextBg{
+
+  stroke:#C89568;
+  fill:transparent;
+  stroke-width:3;
+  text-anchor:middle;
+  font-size:3.64em;
+}
+
+.fromChrisText{
+	  font-size:1.64em;  
+	fill:#C89568;
+}
